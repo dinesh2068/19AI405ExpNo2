@@ -90,8 +90,7 @@ F H <BR>
 
 <hr>
 <h3>Program:</h3>
-<hr>
-<p>
+```
  from collections import defaultdict
 def dfs(graph,start,visited,path):
     path.append(start)
@@ -115,9 +114,8 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
-</p>
+```
 
-<hr>
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
