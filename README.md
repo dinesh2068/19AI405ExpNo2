@@ -90,8 +90,10 @@ F H <BR>
 
 <hr>
 <h3>Program:</h3>
+
 ```
- from collections import defaultdict
+
+from collections import defaultdict
 def dfs(graph,start,visited,path):
     path.append(start)
     visited[start]=True
@@ -114,6 +116,7 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
+
 ```
 
 <h3>Result:</h3>
